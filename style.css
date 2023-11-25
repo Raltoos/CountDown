@@ -8,11 +8,10 @@ body{
   
   
 .countdown {
-    padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 10px;
+    align-items: flex-start;
+    gap: 0px;
     font-family: sans-serif;
 }
 
@@ -24,7 +23,7 @@ body{
 
 .time-section {
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
 }
   
 .time-group {
@@ -33,9 +32,9 @@ body{
   
 .time-segment {
     display: block;
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 900;
-    width: 100px;
+    width: 51px;
 }
   
   .segment-display {
@@ -47,7 +46,7 @@ body{
   .segment-display__bottom {
     overflow: hidden;
     text-align: center;
-    width: 100%;
+    width: 50px;
     height: 50%;
     position: relative;
   }
@@ -77,7 +76,7 @@ body{
     position: absolute;
     overflow: hidden;
     text-align: center;
-    width: 100%;
+    width: 50px;
     height: 50%;
   }
   
@@ -127,8 +126,8 @@ body{
   }
   
 img{
-  position: sticky;
-  width: 90px;
-  bottom: 0px;
-  left: 100%;
+  position: absolute;
+  width: 230px;
+  bottom: 0%;
+  left: 150px;
 }
