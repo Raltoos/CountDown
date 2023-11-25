@@ -1,19 +1,18 @@
-* {
-    box-sizing: border-box;
+*{
+  box-sizing: border-box;
 }
 
 body{
-    background-image: url('background.jpg');
-    background-size: cover;
+  background-color: #c3e5dc;
 }
   
   
 .countdown {
-    margin: 100px auto;
-    width: 50%;
+    padding: 0;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    align-items: center;
+    gap: 10px;
     font-family: sans-serif;
 }
 
@@ -25,12 +24,11 @@ body{
 
 .time-section {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
   
 .time-group {
     display: flex;
-    gap: 10px;
 }
   
 .time-segment {
@@ -128,3 +126,9 @@ body{
     }
   }
   
+img{
+  position: sticky;
+  width: 90px;
+  bottom: 0px;
+  left: 100%;
+}
