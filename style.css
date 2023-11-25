@@ -17,6 +17,12 @@ body{
     font-family: sans-serif;
 }
 
+@media (max-width: 800px) {
+  .countdown {
+    flex-direction: column;
+  }
+}
+
 .time-section {
     text-align: center;
     font-size: 30px;
